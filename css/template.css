@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	position:relative;
+	font-family: 'ralewayregular';
+}
+#welcome{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#000 url(../images/darkimage.jpg);
+    background-size: cover;
+}
+.logo-section{
+	position:relative;
+	width:100%;
+	max-width:600px;
+	margin:0 auto;
+	padding:15px 25px;
+}
+.logo-section img{
+	display:block;
+	margin:48px auto;
+	width:100%;
+}
+.logo-section img.logo-round{
+	max-width:120px;
+	margin:50px auto 0;
+}
+#wrapper{
+	position:absolute;
+	width:100%;
+	top:700px;
+}
+.container{
+	position:relative;
+	width:100%;
+	max-width:1028px;
+	padding:0 15px;
+	margin:0 auto;
+}
+#about{
+	position:relative;
+	background:#fff;
+	width:100%;
+}
+.ex-dash{
+	border-top:1px solid #878787;
+	width:100%;
+	max-width:60px;
+	margin:0 auto;
+}
+.ex-box{
+	position:absolute;
+	top:-23px;
+	left:50%;
+	margin-left:-23px;
+	display:block;
+	width:45px;
+	height:45px;
+	background:#00aeef;
+	text-align:center;
+	color:#fff;
+	line-height:45px;
+	font-size:30px;
+	cursor:pointer;
+	
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+.ex-box i{
+	-ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+.nairobi-text{
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+	font-size:23px;
+	letter-spacing:3px;
+	margin:60px 15px;
+}
+.lnr{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:237px;
+	height:43px;
+	line-height:43px;
+	text-align:center;
+	text-transform:uppercase;
+	color:#FFF;
+	text-decoration:none;
+	border:1px solid #393838;
+	font-size:14px;
+	letter-spacing:1px;
+	font-family: 'ralewaybold';
+}
+.lnr:hover{
+	background:#393838;
+}
+h2{
+	font-size:36px;
+	text-align:center;
+	letter-spacing:3px;
+	font-weight:normal;
+	margin:0 0 95px 0;
+	padding-top:150px;
+}
+h2 span{
+	color:#00aeef;
+}
+.abt-text-1{
+	font-family: 'ralewaylight';
+	color:#464646;
+	font-size:30px;
+	line-height:1.2em;
+	text-align:center;
+	margin-top:95px;
+}
+.abt-text-2{
+	font-family: 'ralewaylight';
+	color:#898989;
+	font-size:18px;
+	line-height:24px;
+	text-align:center;
+	margin:80px 0;
+}
+.abt-org .abt-tag{
+	text-align:center;
+	color:#555555;
+	font-size:14px;
+}
+.logo-sponsors{
+	text-align:center;
+	padding:30px 0 130px;
+	max-width:417px;
+	margin:0 auto;
+}
+.logo-sponsors img{
+	display:block;
+	margin:0 15px;
+	float:left;
+}
+.logo-sponsors img.glogo{
+	float:right;
+}
+.abt-org .ex-dash{
+	border-color:#00aeef;
+	margin-top:13px;
+}
+
+#speakers{
+	position:relative;
+	background:#f6f6f6;
+	padding:40px 0;
+}
+#speakers .container{
+	max-width:1366px;
+}
+#speakers .ex-box{
+	background:#FFF;
+	color:#000;
+}
+.speakers ul{
+	list-style:none;
+	margin:0;
+	padding:60px 0 130px 0;
+}
+.speakers ul li{
+	display:block;
+	width:25%;
+	float:left;
+	text-align:center;
+	padding:25px;
+	overflow:hidden;
+}
+.speakers ul li a{
+	color:#383838;
+	text-decoration:none;
+}
+.speakers ul li a .team-text{
+	font-family: "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14px;
+}
+.speakers ul li a .flowers{
+	font-family: 'ralewaybold';
+	color:#636363;
+	font-size:14px;
+	letter-spacing:1px;
+}
+.speakers ul li a .zealot{
+	display:inline-block;
+	background:#49e2d6;
+	color:#FFF;
+	padding:5px;
+	font-family: "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:2px;
+	margin:10px 0 30px 0;
+}
+
+.bluesect{
+	position:relative;
+	background:#00aeef;
+	padding:100px 0;
+	text-align:center;
+	color:#FFF;
+}
+.bluesect .ex-box{
+	background:#f6f6f6;
+	color:#000;
+}
+.pat{
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-size:36px;
+	margin-bottom:90px;
+}
+.bluesect .ex-dash{
+	border-color:#FFF;
+	margin-bottom:40px;
+}
+.box-dash{
+	position:relative;
+	display:block;
+	width:140px;
+	height:140px;
+	border:2px solid #FFF;
+	border-radius:25px;
+	margin:0 auto 70px;
+	line-height:100px;
+}
+.box-dash .two{
+	font-size:137px;
+	font-family: 'ralewaythin';
+	text-align:center;
+	
+}
+.box-dash .weeks{
+	font-size:14px;
+	text-transform:uppercase;
+	margin-top:-33px;
+}
+.tdate{
+	font-size:30px;
+	font-family: 'ralewaylight';
+	margin-bottom:17px;
+}
+.ttext{
+	font-size:18px;
+	font-family: 'ralewaylight';
+	margin-bottom:17px;
+}
+#contact{
+	position:relative;
+	background:#151516;
+	padding:120px 0 0;
+}
+#contact h2{
+	color:#636363;
+}
+#contact ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	max-width:850px;
+	margin:0 auto;
+	margin-top:90px;
+}
+#contact ul li{
+	display:block;
+	width:100%;
+	max-width:390px;
+	float:left;
+}
+#contact ul li.taj-program{
+	float:right;
+}
+#contact ul li a{
+	display:block;
+	width:100%;
+	padding:20px;
+	border:1px solid #00aef0;
+	text-align:center;
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:14px;
+}
+#contact ul li a:hover{
+	background:#00aef0;
+}
+.contact-text{
+	text-align:center;
+	color:#FFF;
+	margin-top:80px;
+	font-family: 'ralewaybold';
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	padding-bottom:54px;
+}
+.contact-text i{
+	display:block;
+	text-align:center;
+	font-size:48px;
+	margin:0 auto 25px;
+}
+.stretch-map{
+	position:relative;
+	width:100%;
+	height:400px;
+	background:#d0d0d0;
+}
+.stretch-map .ex-box{
+	background:#151516;
+}
+.map-cover{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/* responsive */
+
+@media only screen and (min-height: 900px){
+	#wrapper{
+		top:800px;
+	}
+}
+@media only screen and (min-height: 950px){
+	#wrapper{
+		top:920px;
+	}
+	
+	.logo-section{
+		margin-top:90px;
+	}
+}
+
+
+@media only screen and (max-width: 1000px){
+	.speakers ul li{
+		width:50%;
+	}
+	.speakers ul li:nth-child(3){
+		clear:left;
+	}
+	#contact ul li{
+		float:none;
+		margin:10px auto;
+		clear:both;
+	}
+	#contact ul li a{
+		background:#00aef0;
+	}
+	
+	.abt-text-1{
+		font-size:24px;
+	}
+	
+	#contact ul li.taj-program{
+		float:none;
+	}
+}
+@media only screen and (max-width: 500px){
+	#wrapper{
+		top:650px;
+	}
+	
+	.logo-section img.logo-round{
+		max-width:80px;
+	}
+	
+	.speakers ul li{
+		width:100%;
+		float:none;
+		clear:both;
+	}
+	.logo-sponsors a{
+		display:block;
+		margin:0 auto;
+		
+	}
+	.logo-sponsors img{
+		float:none;
+		margin:20px auto;
+	}
+	.logo-sponsors img.glogo{
+		float:none;
+		margin-top:40px;
+		margin-bottom:0;
+	}
+	
+}
