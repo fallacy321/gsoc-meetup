@@ -169,7 +169,7 @@ h2 span{
 	color:#000;
 }
 .speakers ul{
-	list-style:none;
+	list-style:square;
 	margin:0;
 	padding:60px 0 130px 0;
 }
