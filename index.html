@@ -57,6 +57,16 @@
 				}, 600);
 				event.preventDefault();
 			});
+
+            var height = screen.availHeight;
+            $(document).on('scroll', function(e) {
+                if ($(document).scrollTop() <= height) {
+                var r = $(document).scrollTop() / height;
+                if (r > .5)
+                $("#welcome").css("-webkit-filter", "grayscale(" + r +") blur(" +(Math.ceil(r*10)-6) +"px)");
+                else $("#welcome").css("-webkit-filter", "grayscale(" + r +") blur(0px)");
+                }
+            });
 		});
 	</script>
 </head>
